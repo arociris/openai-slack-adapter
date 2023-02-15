@@ -1,0 +1,5 @@
+slackclient
+flask
+slack
+openai
+slackeventsapi
