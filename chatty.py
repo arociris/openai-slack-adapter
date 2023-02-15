@@ -71,7 +71,3 @@ def chatty():
     else:
         response = generate_text(text)
         return response
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
