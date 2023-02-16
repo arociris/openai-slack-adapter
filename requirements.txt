@@ -1,6 +1,7 @@
 slackclient
-flask
-slack
-openai
-slackeventsapi
+flask~=2.2.2
+slack~=0.0.2
+openai~=0.26.5
+slackeventsapi~=3.0.1
 Gunicorn
+requests~=2.28.2
