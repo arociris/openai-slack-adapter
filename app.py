@@ -26,7 +26,7 @@ client = slack.WebClient(token=SLACK_TOKEN)
 
 def generate_text(prompt):
     completions = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="gpt-3.5-turbo",
         prompt=prompt,
         max_tokens=1024,
         n=1,
